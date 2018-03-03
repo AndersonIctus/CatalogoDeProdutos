@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="DAOFactoryTests.cs" />
     <Compile Include="DAO\CategoriaDAOTests.cs" />
+    <Compile Include="DAO\ProdutoDAOTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

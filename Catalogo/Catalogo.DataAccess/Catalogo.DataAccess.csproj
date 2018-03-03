@@ -123,6 +123,7 @@
     </Compile>
     <Compile Include="DAOFactory.cs" />
     <Compile Include="DAO\CategoriaDAO.cs" />
+    <Compile Include="DAO\ProdutoDAO.cs" />
     <Compile Include="IDataAccess.cs" />
     <Compile Include="Produto.cs">
       <DependentUpon>CatalogoBancoModel.tt</DependentUpon>

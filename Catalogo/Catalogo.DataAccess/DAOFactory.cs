@@ -17,7 +17,7 @@ namespace Catalogo.DataAccess
 
         public static IDataAccess<Produto> getProdutoDAO()
         {
-            return null; // new DAO.CategoriaDAO();
+            return new DAO.ProdutoDAO();
         }
     }
 }
