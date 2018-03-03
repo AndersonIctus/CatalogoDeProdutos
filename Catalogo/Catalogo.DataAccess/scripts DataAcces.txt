@@ -1,0 +1,17 @@
+CREATE TABLE [dbo].[Categoria]
+(
+	[idCat] INT NOT NULL PRIMARY KEY, 
+    [nomeCat] NVARCHAR(50) NULL
+)
+
+CREATE TABLE [dbo].[Produto]
+(
+	[idProd] INT NOT NULL PRIMARY KEY, 
+    [idCat] INT NOT NULL, 
+    [nomeProd] NVARCHAR(50) NULL, 
+    [descProd] NVARCHAR(MAX) NULL, 
+    [imagem] NVARCHAR(MAX) NULL
+)
+
+
+metadata=res://*/DAO.ConceptBD.csdl|res://*/DAO.ConceptBD.ssdl|res://*/DAO.ConceptBD.msl;provider=System.Data.SqlClient;provider connection string='data source=(LocalDB)\MSSQLLocalDB;attachdbfilename="C:\00 - DADOS\REPOSITORIO\CatalogoDeProdutos\Catalogo\Catalogo.DataAccess\CatalogoBancoDados.mdf";integrated security=True;connect timeout=30;MultipleActiveResultSets=True;App=EntityFramework'
