@@ -1,0 +1,22 @@
+﻿.div-categoria {
+    width: 230px;
+}
+
+.div-categoria input[type=number]{
+    width: 80px;
+}
+
+.div-categoria input[type=text] {
+    width: 200px;
+}
+    
+.fieldset-titulo legend {
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 10px
+    }
+
+.btn-cadastrar {
+    float: right;
+    margin-right: 15px;
+}

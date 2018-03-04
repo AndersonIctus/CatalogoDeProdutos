@@ -1,0 +1,70 @@
+﻿/* ----------------------------------  HEADER  ----------------------------------  */
+header div {
+    background-color: black;
+    position: relative;
+}
+
+header h1 {
+    padding-top: 0px;
+    margin-top : 10px;
+}
+
+.menu-opcoes {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+}
+
+.menu-opcoes ul {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.menu-opcoes ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.menu-opcoes a {
+    color: white;
+}
+
+.menu-opcoes a:hover {
+    color: #007dc6;
+}
+
+.menu-opcoes a:active {
+    color: #867dc6;
+}
+
+/* ----------------------------------  BODY  ----------------------------------  */
+.container {
+    margin: 0 auto;
+    width: 1024px;
+    margin-top: 5px;
+}
+
+/* ----------------------------------  Footer  ----------------------------------  */
+footer {
+    background-image: url(images/fundo-rodape.png);
+    clear: both;
+    padding: 20px 0px;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+footer .container {
+    position: relative;
+    padding-left: 20px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+footer p {
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 0px;
+    margin-top: 0px;
+}

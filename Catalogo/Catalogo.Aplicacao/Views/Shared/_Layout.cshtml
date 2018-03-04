@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Meu Aplicativo ASP.NET</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>
+                <a href="/">
+                    <img src='~/Content/images/logo-catalogo-novo.jpg' alt='Catalogo de Produtos'>
+                </a>
+            </h1>
+            <nav class='menu-opcoes'>
+                <ul>
+                    <li>@Html.ActionLink("Catalogo", "Index", "Catalogo")</li>
+                    <li>@Html.ActionLink("Cadastro de Produtos", "Index", "Produto")</li>
+                    <li>@Html.ActionLink("Cadastro de Categorias", "Index", "Categoria")</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        @RenderBody()
+    </div>
+    <hr />
+
+    <footer>
+        <div class="container">
+            <p>&copy; Catalogo de Produtos - Anderson Dourado </p>
+        </div>
+    </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

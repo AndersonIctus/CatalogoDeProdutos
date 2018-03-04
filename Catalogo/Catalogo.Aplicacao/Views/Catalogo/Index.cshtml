@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewBag.Title = "Catalogo de Produtos";
+    @Styles.Render("~/Content/Catalogo/css");
+}
+
+<div class="conteudo-local">
+    <section class='menu-categoria'>
+        <h2>Categorias</h2>
+        <nav>
+            <ul>
+                <li><a href='#'>Calças</a></li>
+                <li><a href='#'>Saias</a></li>
+                <li><a href='#'>Vestidos</a></li>
+                <li><a href='#'>Sapatos</a></li>
+                <li><a href='#'>Bolsas e Carteiras</a></li>
+                <li><a href='#'>Acessórios</a></li>
+            </ul>
+        </nav>
+    </section><!-- fim .menu-categoria -->
+
+    <section class='painel-catalogo'>
+        <form>
+            <input type='search' placeholder='Buscar Produto'>
+        </form>
+    </section><!-- fim .painel-catalogo -->
+</div>
