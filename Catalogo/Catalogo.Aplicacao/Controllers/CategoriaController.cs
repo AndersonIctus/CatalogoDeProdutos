@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Catalogo.App.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,6 +12,17 @@ namespace Catalogo.Aplicacao.Controllers
         // GET: Categoria
         public ActionResult Index()
         {
+            return View();
+        }
+
+        [HttpPost]
+        public ActionResult Index(Categoria categoria)
+        {
+            if (ModelState.IsValid)
+            {
+                //Faz a inclusao no banco de dados !!
+            }
+
             return View();
         }
     }
