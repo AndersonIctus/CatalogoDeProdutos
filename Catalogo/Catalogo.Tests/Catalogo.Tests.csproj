@@ -72,10 +72,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Catalogo.Aplicacao\Catalogo.Aplicacao.csproj">
-      <Project>{285DF0CD-8E14-46F8-AFCD-4803BB390FBC}</Project>
-      <Name>Catalogo.Aplicacao</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Catalogo.DataAccess\Catalogo.DataAccess.csproj">
       <Project>{BCE651BD-1834-4618-A4AF-E517D12C5059}</Project>
       <Name>Catalogo.DataAccess</Name>
