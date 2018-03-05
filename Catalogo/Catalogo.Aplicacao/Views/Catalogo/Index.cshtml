@@ -1,27 +1,42 @@
-﻿
+﻿@model IEnumerable<Catalogo.Aplicacao.Models.Produto>
+
 @{
     ViewBag.Title = "Catalogo de Produtos";
     @Styles.Render("~/Content/Catalogo/css");
 }
 
-<div class="conteudo-local">
-    <section class='menu-categoria'>
-        <h2>Categorias</h2>
-        <nav>
-            <ul>
-                <li><a href='#'>Calças</a></li>
-                <li><a href='#'>Saias</a></li>
-                <li><a href='#'>Vestidos</a></li>
-                <li><a href='#'>Sapatos</a></li>
-                <li><a href='#'>Bolsas e Carteiras</a></li>
-                <li><a href='#'>Acessórios</a></li>
-            </ul>
-        </nav>
-    </section><!-- fim .menu-categoria -->
+    <div class="col-md-3 list-group m-0 p-0">
+            @Html.Label("Categorias", new { @class = "list-group-item list-group-item-action active bold-font font-size22" })
+            @foreach (Catalogo.Aplicacao.Models.Categoria cat in ViewBag.Categorias) {
+                        @Html.ActionLink(cat.nomeCat, "Index", "Catalogo",
+                            new { @catId = cat.idCat},
+                            new { @class = "list-group-item list-group-item-action bold-font" })
+            }
+    </div>
 
-    <section class='painel-catalogo'>
-        <form>
-            <input type='search' placeholder='Buscar Produto'>
-        </form>
-    </section><!-- fim .painel-catalogo -->
+    <div class="col-md-13 pl-1">
+        <div class="row col-md-9 mb-1">
+            <form>
+                <input type='search' placeholder='Buscar Produto' class="col-md-5">
+            </form>
+        </div>
+
+        <div class="row col-md-9">
+            <ul class="list-group list-group-flush m-0">
+                @foreach (Catalogo.Aplicacao.Models.Produto prod in Model)
+                {
+                <li class="media list-group-item p-0 m-0">
+                    <img class="col-md-2 img-responsive p-1 center" src="@prod.imagemPath" alt="Generic placeholder image">
+                    <div class="media-body col-md-10 p-1">
+                        <p>
+                            @Html.Label(prod.nomeProd, new { @class = "bold-font font-size22" })
+                        </p>
+                        <p>
+                            @Html.Label(prod.descricao)
+                        </p>
+                    </div>
+                </li>
+                }
+           </ul>
+        </div>
 </div>

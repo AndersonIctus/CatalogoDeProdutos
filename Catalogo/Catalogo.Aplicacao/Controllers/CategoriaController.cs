@@ -1,4 +1,4 @@
-﻿using Catalogo.App.Models;
+﻿using Catalogo.Aplicacao.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

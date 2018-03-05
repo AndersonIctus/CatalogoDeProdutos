@@ -150,6 +150,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Categoria.cs" />
+    <Compile Include="Models\Produto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -158,6 +159,32 @@
     <Content Include="Content\Catalogo.css" />
     <Content Include="Content\Categoria.css" />
     <Content Include="Content\images\busca.png" />
+    <Content Include="Content\images\CATEGORIAS\BLUSAS MASCULINAS\1.jpg" />
+    <Content Include="Content\images\CATEGORIAS\BLUSAS MASCULINAS\2.jpg" />
+    <Content Include="Content\images\CATEGORIAS\BLUSAS MASCULINAS\3.jpg" />
+    <Content Include="Content\images\CATEGORIAS\BLUSAS MASCULINAS\4.jpg" />
+    <Content Include="Content\images\CATEGORIAS\BLUSAS MASCULINAS\5.jpg" />
+    <Content Include="Content\images\CATEGORIAS\BOLSAS E MOCHILAS\1.jpg" />
+    <Content Include="Content\images\CATEGORIAS\BOLSAS E MOCHILAS\2.jpg" />
+    <Content Include="Content\images\CATEGORIAS\BOLSAS E MOCHILAS\3.jpg" />
+    <Content Include="Content\images\CATEGORIAS\BOLSAS E MOCHILAS\4.jpg" />
+    <Content Include="Content\images\CATEGORIAS\BOLSAS E MOCHILAS\5.jpg" />
+    <Content Include="Content\images\CATEGORIAS\CALÇADOS MASCULINOS\1.jpg" />
+    <Content Include="Content\images\CATEGORIAS\CALÇADOS MASCULINOS\2.jpg" />
+    <Content Include="Content\images\CATEGORIAS\CALÇADOS MASCULINOS\3.jpg" />
+    <Content Include="Content\images\CATEGORIAS\CALÇADOS MASCULINOS\4.jpg" />
+    <Content Include="Content\images\CATEGORIAS\CALÇADOS MASCULINOS\5.jpg" />
+    <Content Include="Content\images\CATEGORIAS\CELULARES\1.jpg" />
+    <Content Include="Content\images\CATEGORIAS\CELULARES\2.jpg" />
+    <Content Include="Content\images\CATEGORIAS\CELULARES\3.jpg" />
+    <Content Include="Content\images\CATEGORIAS\CELULARES\4.jpg" />
+    <Content Include="Content\images\CATEGORIAS\CELULARES\5.jpg" />
+    <Content Include="Content\images\CATEGORIAS\RELOGIOS\1.jpg" />
+    <Content Include="Content\images\CATEGORIAS\RELOGIOS\1_thumb.jpg" />
+    <Content Include="Content\images\CATEGORIAS\RELOGIOS\2.jpg" />
+    <Content Include="Content\images\CATEGORIAS\RELOGIOS\3.jpg" />
+    <Content Include="Content\images\CATEGORIAS\RELOGIOS\4.jpg" />
+    <Content Include="Content\images\CATEGORIAS\RELOGIOS\5.png" />
     <Content Include="Content\images\facebook.png" />
     <Content Include="Content\images\fundo-rodape.png" />
     <Content Include="Content\images\googleplus.png" />
